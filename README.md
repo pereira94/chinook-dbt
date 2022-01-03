@@ -1,15 +1,11 @@
-Welcome to your new dbt project!
+# Chinook database dbt project
 
-### Using the starter project
+## Overview
 
-Try running the following commands:
-- dbt run
-- dbt test
+This is a project to showcase the ELT tool dbt's functionalities from basic to advanced concepts. For this configuration, I am trying out dbt cloud as my experience with the tool has been using the CLI. 
+
+## Data 
+
+The source data is the Chinook database. I have the data stored in a Google BigQuery instance, which serves as the source and destination data warehouse for this project. 
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
