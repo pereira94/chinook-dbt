@@ -1,0 +1,18 @@
+version: 2
+
+models: 
+    - name: stg_customers
+      columns:
+        - name: CustomerID
+          description: Primary key for stg_customers
+          tests:
+            - unique
+            - not_null
+
+models: 
+    - name: fct_invoices
+      columns:
+        - name: InvoiceID
+          tests:
+            - unique
+            - not_null

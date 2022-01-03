@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: chinook
+      database: chinook-dbt
+      schema: chinook
+      tables:
+        - name: invoice
+        - name: customer
